@@ -1,4 +1,10 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Mentions Légales | Pharmacie Mozart',
+  description: 'Informations légales de la Pharmacie Mozart',
+}
 
 export default function MentionsLegales() {
   return (
