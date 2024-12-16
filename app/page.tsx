@@ -112,12 +112,12 @@ export default function LandingPage() {
             <div className="flex flex-col items-center text-center">
               <Clock className="h-8 w-8 text-[#1e3a8a] mb-4" />
               <h3 className="font-semibold mb-2 text-[#5ea637]">Horaires</h3>
-              <p className="text-gray-600">Lun - Ven: 8h00 - 19h30<br />Sam: 8h - 17h</p>
+              <p className="text-gray-600">Lun - Ven: 8h00 - 12h30<br />Lun - Ven: 14h - 19h30<br />Sam: 8h - 17h</p>
             </div>
             <div className="flex flex-col items-center text-center">
               <Mail className="h-8 w-8 text-[#1e3a8a] mb-4" />
               <h3 className="font-semibold mb-2 text-[#5ea637]">Email</h3>
-              <p className="text-gray-600">contact@pharmacie-mozart.fr</p>
+              <p className="text-gray-600">contact@pharmaciemozart.com</p>
             </div>
           </div>
           <div className="mt-12 w-full flex justify-center">
