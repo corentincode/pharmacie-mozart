@@ -2,13 +2,6 @@ import { MapPin, Phone, Clock, Mail, Car } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
 
-const colors = {
-  blue: '#1e3a8a',
-  green: '#15803d',
-  lightBlue: '#dbeafe',
-  lightGreen: '#dcfce7',
-};
-
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
@@ -88,7 +81,7 @@ export default function LandingPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6 text-[#1e3a8a]">Stationnement Facile</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Profitez d'un stationnement facile et gratuit directement devant notre pharmacie. Nous nous assurons que votre visite soit aussi pratique que possible.
+                Profitez d&apos;un stationnement facile et gratuit directement devant notre pharmacie. Nous nous assurons que votre visite soit aussi pratique que possible.
               </p>
               <div className="flex items-center gap-2 text-[#5ea637]">
                 <Car className="h-6 w-6" />
