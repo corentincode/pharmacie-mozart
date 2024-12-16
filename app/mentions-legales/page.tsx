@@ -27,8 +27,10 @@ export default function MentionsLegales() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-[#5ea637]">Hébergeur</h2>
           <div className='text-gray-600'>
-          <p>[Nom de l&apos;hébergeur]</p>
-          <p>[Adresse de l&apos;hébergeur]</p>
+            <p>Vercel Inc.</p>
+            <p>340 S Lemon Ave #4133</p>
+            <p>Walnut, CA 91789</p>
+            <p>États-Unis</p>
           </div>
         </section>
 
